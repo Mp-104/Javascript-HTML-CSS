@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <title>CSS-Demo</title>
+    
+        <link rel="stylesheet" href="övning1.css">
+    
+        <p class="my-text" id="my-text">Min text här</p>
+    
+        <h1>H1 text</h1>
+    
+    </head>
+    <div>
+        TEST
+
+    </div>
+
+    <body id="body">
+        <header>
+            <button id="menu">Menu</button>
+            <nav id="nav" class="meny">
+                <button id="knapp">Tryck här</button>
+                <button id="röd">Tryck för röd bakgrund</button>
+                <button id="gul">Tryck för gul bakgrund</button>
+                <ul>
+                    <li><a href="annan.html">Annan sida</a></li>
+                    <li><a href="index.html">Startsida</a></li>
+                    <li><a href="övning2.html">Övning 2 sida</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <article style="background-color: crimson;">TEST</article>
+
+
+        <h2 class="kontaktsida">Kontaktsida</h2>
+        <p>Kontaktinformation</p>
+
+        <a href="tel:+46737509185">Ogiltigt telefonnummer, ring inte!</a>
+        <br>
+        <br>
+        <a href="mailto:email@mail.su">Ogiltig epost address, maila inte!</a>
+
+        <br>
+
+        <br>
+        <form>
+            <fieldset>
+                <legend>Namn</legend>
+                <input id="namn" type="text" name="name" value="" placeholder="Ange namn">
+                <input id="skicka" type="submit" value="Skicka">
+                <button id="button" type="button">Button</button>
+            </fieldset>
+        </form>
+
+        <p id="demo">Test</p>
+
+        <p id="demo2">TEST2</p>
+
+        <p>Besökslista</p>
+        <ul id="myList"></ul>
+        <article></article>
+
+        <form id="form" class="form">
+            <fieldset>
+                <legend>Personlig information</legend>
+                <input type="text" name="name" required placeholder="Namn">
+                <br><br>
+                <input type="email" name="email" placeholder="Epost">
+                <input type="number" name="phone" placeholder="Telefonnummer">
+                <br><br>
+
+                <p>Blivande eller nuvarande kund?</p>
+                <input type="radio" id="nuvarande kund" name="kund" value="Nuvarande kund">
+                <label for="nuvarande kund">Nuvarande kund</label>
+
+                <br>
+                <input type="radio" id="blivande kund" name="kund" value="Blivande kund">
+                <label for="blivande kund">Blivande kund</label>
+
+                <br><br>
+                <textarea name="ämne" id="" cols="50" rows="1" placeholder="Ämne"></textarea>
+                <br><br>
+                <textarea name="message" id="" cols="50" rows="10" placeholder="Meddelande"></textarea>
+
+                <p>Godkänn vår policy</p>
+                
+                <input type="checkbox" id="Godkänn" name="Godkänn" value="Godkänn">
+                <label for="Godkänn">Godkänn</label>
+
+                <br><br>
+                <input type="submit" value="Skicka">
+
+
+            </fieldset>
+
+            <video src="C:\Users\mp-10\Desktop\Adolf Hitlers Speech On Operation Barbarossa.mp4" width="500" autoplay loop>Din webbläsare stödjer inte videon</video>
+            <br><br>
+            <img src="C:\Users\mp-10\Desktop\Uppgift1.png" alt="En bild av uppgift1" title="bild" width="500">
+        </form>
+
+    </body>
+    <script src="javascript.js"></script>
+</html>

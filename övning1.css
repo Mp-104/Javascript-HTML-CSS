@@ -1,0 +1,66 @@
+h1 {
+    color: black;
+}
+
+p {
+    color: black
+}
+
+section {
+    color-scheme: red;
+    background-color: purple;
+}
+
+.table {
+    background-color: red;
+}
+
+/* .my-text är klass */
+.my-text {
+    color: blue;
+}
+
+.kontaktsida {
+    color: blue;
+}
+
+.rubrik {
+    color: aqua;
+}
+
+.form {
+    
+    color: red;
+}
+
+/* #my-text är id*/
+#my-text {
+    color: crimson;
+}
+
+.meny {
+    display: none;
+}
+
+.show {
+    display: flex;
+}
+
+.show2 {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 100px 100px 100px;
+    column-gap: 50px;
+}
+
+.backgroundYellow {
+    background-color: yellow;
+}
+
+.backgroundRed {
+    background-color: red;
+}
+
+ul {
+    list-style: none;
+}
