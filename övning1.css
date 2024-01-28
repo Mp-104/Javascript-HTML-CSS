@@ -64,3 +64,76 @@ section {
 ul {
     list-style: none;
 }
+
+@keyframes colourAnimation {
+    0% {
+        background-color: red;
+    }
+
+    50% {
+        background-color: yellow;
+    }
+    
+    100% {
+        background-color: red;
+    }
+}
+
+p {
+    animation-name: colourAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#demo3 {
+    
+    position:absolute;
+    animation-name: circle;
+    animation-duration: 2;
+    animation-iteration-count: infinite;
+    background-color: aqua;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    z-index: -100;
+    top: 00px;
+}
+
+
+@keyframes circle {
+
+    0% {
+        position: left;
+        left: 500px;
+        top: 500px;
+    }
+
+    25% {
+        left: 900px;
+        top: 500px;
+        right: 00px;
+    }
+
+    50% {
+        height: 0px;
+        width: 0px;
+        opacity: 0;
+        
+        left: 900px;
+        top: 1000px;
+    }
+
+    75% {
+        opacity: 1;
+        height: 100px;
+        width: 100px;
+        background-color: red;
+        left: 500px;
+        top: 500px;
+    }
+
+    100% {
+        left: 500px;
+        top: 500px;
+    }
+}

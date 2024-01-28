@@ -91,9 +91,9 @@
         
 
         for (let i = 0; i < listData.length; i++) {
-            listItem.textContent = listData[i];
+            listItem.textContent = listData[i]; // .textContent can be replaced with .innerText
             listElement.appendChild(listItem);
-            listItem = document.createElement('li');
+            //listItem = document.createElement('li');
             //document.getElementById("demo2").innerHTML ="Hej, " + AngeNamn + " personen före dig var " + listData[i-1];
 
         }
